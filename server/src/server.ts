@@ -1,3 +1,4 @@
+import { } from './db/connection.ts'
 import { fastify } from 'fastify'
 import {
   serializerCompiler,
