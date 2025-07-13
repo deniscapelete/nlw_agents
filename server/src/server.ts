@@ -30,4 +30,4 @@ app.register(createRoomRoute)
 app.register(getRoomQuestions)
 app.register(createQuestionRoute)
 
-app.listen({ port: env.PORT })
+app.listen({ port: env.PORT, host: '127.0.0.1' })
