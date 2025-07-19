@@ -15,6 +15,13 @@
       "when": 1752320683482,
       "tag": "0001_wise_madame_masque",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1752623320052,
+      "tag": "0002_giant_vulture",
+      "breakpoints": true
     }
   ]
 }
