@@ -62,7 +62,7 @@ export async function generateAnswer(question: string, transcriptions: string[])
 
   INSTRUÇÕES:
   - Use apenas informações contidas no contexto enviado;
-  - Se a resposta não for encontrada no contexto, apenas responda que não possui informações suficientes para responder, sem repetir a pergunta;
+  - Se a resposta não for encontrada no contexto, apenas responda: "Não possuo informações suficientes para responder a essa pergunta com base no conteúdo fornecido." Não adicione nenhuma outra informação ou explicação além desta frase.
   - Seja objetivo;
   - Mantenha um tom educativo e profissional;
   - Cite trechos relevantes do contexto se apropriado;
